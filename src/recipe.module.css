@@ -21,3 +21,15 @@
 .inglist{
     margin-right:10px;
 }
+
+.label {
+    float: left
+}
+.text {
+    display: inline;
+    overflow: hidden;
+    padding: 0 4px 0 6px
+}
+.calorie{
+    padding-bottom: 10px;
+}
