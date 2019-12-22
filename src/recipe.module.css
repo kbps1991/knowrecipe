@@ -8,15 +8,16 @@
     background: white;
     align-items: center;
     min-width: 40%;
+    background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
 }
 
-.food-img{
+.foodimg{
     margin-bottom:3%;
-}
-
-.ing-list{
-    margin-right:10px;
     border-radius: 50%;
     width: 100px;
     height: 100px;
+}
+
+.inglist{
+    margin-right:10px;
 }

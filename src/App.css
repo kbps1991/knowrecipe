@@ -1,6 +1,6 @@
 .App{
   min-height: 100vh;
-  background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
 }
 
 .search-form{
@@ -24,7 +24,7 @@
 
 .search-button {
   border-radius: 10px;
-  background-color: lightcoral;
+  background-color: lightsalmon;
   border: none;
   color: #FFFFFF;
   text-align: center;
