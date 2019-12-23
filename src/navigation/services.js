@@ -1,4 +1,5 @@
 import React,{useEffect, useState} from 'react';
+import NutritionResults from '../nutritionResults'
 import '../App.css';
 
 const NutritionAnalysis = () => {
@@ -10,6 +11,10 @@ const NutritionAnalysis = () => {
     const updateDataToAnalyse = event =>{
         setToAnalyse(event.target.value);
     }
+
+    useEffect(() => {
+    }, [analysedData]);
+
     const analyseData = async event =>{
         if(toAnalyse){
             let response = await fetch(`https://api.edamam.com/api/nutrition-details?app_id=${Nutrition_app_id}&app_key=${Nutrition_app_key}`, {
@@ -20,9 +25,9 @@ const NutritionAnalysis = () => {
                     }),
                 body: JSON.stringify({"ingr":toAnalyse.split(/\n|\r/)})
             });
-            const analysedResults = await response.json();
-
-            console.log(analysedResults);
+            const analysedData = await response.json();
+            setAnalysedData(analysedData);
+            //console.log(analysedData);
         }
     }
     return (
@@ -37,7 +42,7 @@ const NutritionAnalysis = () => {
                     <p><button onClick={analyseData} type="button" className="calc-analysis-api" onClick={analyseData}>Analyze</button></p>
                 </div>
                 <div className="result-box">
-                    
+                    <NutritionResults results = {analysedData}/>
                 </div>
             </div>
         </div>
