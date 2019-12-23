@@ -19,14 +19,14 @@ const Nav = () => {
                         Home
                     </li>
                 </Link>
-                <Link style={navStyle} to="/about">
-                    <li>
-                        About Us
-                    </li>
-                </Link>
                 <Link style={navStyle} to="/services">
                     <li>
                     Nutrition Analysis
+                    </li>
+                </Link>
+                <Link style={navStyle} to="/about">
+                    <li>
+                        About Us
                     </li>
                 </Link>
                 <Link style={navStyle} to="/contactus">
