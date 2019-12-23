@@ -26,7 +26,7 @@ const Nav = () => {
                 </Link>
                 <Link style={navStyle} to="/services">
                     <li>
-                        Services
+                    Nutrition Analysis
                     </li>
                 </Link>
                 <Link style={navStyle} to="/contactus">
