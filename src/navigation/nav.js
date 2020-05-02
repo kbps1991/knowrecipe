@@ -9,7 +9,7 @@ const Nav = () => {
     return (
           <nav>
             <ul className="nav-links">
-                <Link to="/home">
+                <Link to="/knowrecipe/home">
                 <li>
                     <img style={imgStyle} src={logo} alt="logo"></img>
                 </li>
