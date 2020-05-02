@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b1caf8dc9ce3f9d79dff566efb810580",
+    "revision": "00575e3e8b728283d4c3bebb8ce830a2",
     "url": "/knowrecipe/index.html"
   },
   {
-    "revision": "408b163eb3ca350deefe",
+    "revision": "fe9cb9b8fb7d7cb91b8d",
     "url": "/knowrecipe/static/css/main.48d6116d.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/knowrecipe/static/js/2.3d78fba9.chunk.js.LICENSE"
   },
   {
-    "revision": "408b163eb3ca350deefe",
-    "url": "/knowrecipe/static/js/main.601f9885.chunk.js"
+    "revision": "fe9cb9b8fb7d7cb91b8d",
+    "url": "/knowrecipe/static/js/main.0de7e059.chunk.js"
   },
   {
     "revision": "27a1af49f04bb4d2cb17",
