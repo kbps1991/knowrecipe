@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/knowrecipe/static/css/main.48d6116d.chunk.css",
+    "main.js": "/knowrecipe/static/js/main.601f9885.chunk.js",
+    "main.js.map": "/knowrecipe/static/js/main.601f9885.chunk.js.map",
+    "runtime-main.js": "/knowrecipe/static/js/runtime-main.e746c646.js",
+    "runtime-main.js.map": "/knowrecipe/static/js/runtime-main.e746c646.js.map",
+    "static/js/2.3d78fba9.chunk.js": "/knowrecipe/static/js/2.3d78fba9.chunk.js",
+    "static/js/2.3d78fba9.chunk.js.map": "/knowrecipe/static/js/2.3d78fba9.chunk.js.map",
+    "index.html": "/knowrecipe/index.html",
+    "precache-manifest.59dabeef5c53bca21c900fd880987580.js": "/knowrecipe/precache-manifest.59dabeef5c53bca21c900fd880987580.js",
+    "service-worker.js": "/knowrecipe/service-worker.js",
+    "static/css/main.48d6116d.chunk.css.map": "/knowrecipe/static/css/main.48d6116d.chunk.css.map",
+    "static/js/2.3d78fba9.chunk.js.LICENSE": "/knowrecipe/static/js/2.3d78fba9.chunk.js.LICENSE",
+    "static/media/logo.png": "/knowrecipe/static/media/logo.8325a79f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e746c646.js",
+    "static/js/2.3d78fba9.chunk.js",
+    "static/css/main.48d6116d.chunk.css",
+    "static/js/main.601f9885.chunk.js"
+  ]
+}
