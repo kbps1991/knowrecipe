@@ -30,7 +30,7 @@ const NutritionResult = (results) =>{
     let K = '-';
     let totalDailyK = '-';
 
-    if(results.results){
+    if(results.results && !results.results.error){
         const analysedResults =  results.results;
         if (typeof(analysedResults.totalNutrients.ENERC_KCAL) != "undefined") {
             totalCal = Math.round(analysedResults.totalNutrients.ENERC_KCAL.quantity);
@@ -202,7 +202,10 @@ const NutritionResult = (results) =>{
             </div>
         );
     }
-    return "";
+    else if(results.results.error)
+        return (<h2>Insufficient Data to Analyse</h2>);
+    else
+        return "";
 
 
 

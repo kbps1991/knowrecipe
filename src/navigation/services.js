@@ -36,7 +36,7 @@ const NutritionAnalysis = () => {
                 <h1 style={{color:'orange'}}>Nutrition Analysis</h1>
                 <div className="text-box">
                     <p>Enter an ingredient list list for what you are cooking, like 
-                        <span className="example">"1 cup rice, 10 oz chickpeas"</span>, etc.<p style={{fontSize:'small'}}>Enter each ingredient on a new line.</p> 
+                        <span className="example"><b> "1 cup rice, 10 oz chickpeas" </b></span> etc.<p style={{fontSize:'small'}}>Enter each ingredient with quantity on a new line.</p> 
                     </p>
                     <p><textarea name="" id="demoAnalysis" cols="60" rows="15" value={toAnalyse} onChange={updateDataToAnalyse} className="form-control" spellCheck="true">1 cup rice,10 oz chickpeas</textarea></p>
                     <p><button onClick={analyseData} type="button" className="calc-analysis-api" onClick={analyseData}>Analyze</button></p>

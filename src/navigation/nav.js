@@ -14,22 +14,22 @@ const Nav = () => {
                     <img style={imgStyle} src={logo} alt="logo"></img>
                 </li>
                 </Link>
-                <Link style={navStyle} to="/home">
+                <Link style={navStyle} to="/knowrecipe/home">
                     <li>
                         Home
                     </li>
                 </Link>
-                <Link style={navStyle} to="/services">
+                <Link style={navStyle} to="/knowrecipe/services">
                     <li>
                     Nutrition Analysis
                     </li>
                 </Link>
-                <Link style={navStyle} to="/about">
+                <Link style={navStyle} to="/knowrecipe/about">
                     <li>
                         About Us
                     </li>
                 </Link>
-                <Link style={navStyle} to="/contactus">
+                <Link style={navStyle} to="/knowrecipe/contactus">
                     <li>
                         Contact Us
                     </li>
