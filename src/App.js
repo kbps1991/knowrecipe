@@ -35,6 +35,14 @@ const App = () => {
       <form onSubmit={getSearch} className="search-form">
         <input placeholder="Default:chicken" className="search-bar" type="text" value={search} onChange={updateSearch}/>
         <button className="search-button" type="submit">Search</button>
+        <div>
+          <label className="region" for="region">Region:</label>
+          <select name="region" id="region">
+            <option value="USA">USA</option>
+            <option value="Europe">Europe</option>
+            <option value="AsiaPacific">AsiaPacific</option>
+        </select>
+        </div>
       </form>
       <div className="recipes">
         {
@@ -44,6 +52,7 @@ const App = () => {
             calories = {item.recipe.calories}
             image={item.recipe.image}
             ingredients = {item.recipe.ingredients}
+            dietLabels = {item.recipe.dietLabels}
           />))
         }
       </div>
