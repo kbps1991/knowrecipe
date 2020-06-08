@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3ba107968e63a09ddf5f7759c90ac305",
+    "revision": "9690fd758c345e708c579414d9ff0bc8",
     "url": "/knowrecipe/index.html"
   },
   {
-    "revision": "d6f73ffdd2bdb7d9b378",
-    "url": "/knowrecipe/static/css/main.b4afba1e.chunk.css"
+    "revision": "7443ce2d94e9da9ef9ac",
+    "url": "/knowrecipe/static/css/main.76908f10.chunk.css"
   },
   {
-    "revision": "824a1ac7032522dc48a7",
-    "url": "/knowrecipe/static/js/2.3d78fba9.chunk.js"
+    "revision": "0f1c95034bd1a0e75c58",
+    "url": "/knowrecipe/static/js/2.71d3ae17.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/knowrecipe/static/js/2.3d78fba9.chunk.js.LICENSE"
+    "url": "/knowrecipe/static/js/2.71d3ae17.chunk.js.LICENSE"
   },
   {
-    "revision": "d6f73ffdd2bdb7d9b378",
-    "url": "/knowrecipe/static/js/main.03ac21e2.chunk.js"
+    "revision": "7443ce2d94e9da9ef9ac",
+    "url": "/knowrecipe/static/js/main.4950a70f.chunk.js"
   },
   {
     "revision": "27a1af49f04bb4d2cb17",
